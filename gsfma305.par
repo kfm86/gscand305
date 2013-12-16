@@ -1,0 +1,38 @@
+datafiles_all_inbeam.dat		
+gsfma305_gsconfig.dat				
+gsfma305_mbconfig.dat				
+scan_statistics.dat				
+/data/gsfma305/spectra/h1/gate
+0 1 1 1 0 1 1 2 0 0 0 0 0 0 0 0 0 0 0 0		
+1
+3.0 1.0 2.0
+2.0 2.0 4.0					
+0.004
+gs_cal_coefficients.dat
+mb_cal_coefficients.dat
+polygon_gates.dat				
+
+! file containing list of datafiles
+! gammasphere configuration file
+! microball configuration file
+! statistics file (will be created)
+! scan directory (where the spectra will be written)
+! ndo flags (see below)
+! histogram option
+! gammasphere compressions: [0] energy [1] sidechannel [2] time
+! microball compressions: [0] energy [1] PID [2] time 
+! beta (recoil velocity)
+! polygon file
+!
+!
+! ndo[1] write lots of words etc to the screen (for debugging)
+! ndo[2] align germanium times
+! ndo[3] add side-channel info to the detector numbers
+! ndo[4] doppler correc and sc correc (requires ndo[3])
+! ndo[5] doppler correct with no side chan correc (requires !ndo[3])
+! ndo[6] calibrate Microball
+! ndo[7] calibrate Gammasphere
+! ndo[8] Gammasphere time gating: 1 = by channel; 2 = polygonal
+! ndo[9] particle gating
+! ndo[10]-ndo[22] NOT CURRENTLY USED
+
