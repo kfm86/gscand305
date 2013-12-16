@@ -1,0 +1,31 @@
+3
+/data/gsfma305/data/Nov16/Nov16.r037.dat.007   -1	  0
+/data/gsfma305/data/Nov16/Nov16.r037.dat.008   -1	  0
+/data/gsfma305/data/Nov16/Nov16.r037.dat.009   -1	  0
+/data/gsfma305/data/Nov07/Nov07.r008.dat.000   -1	  0
+/data/gsfma305/data/Nov07/Nov07.r008.dat.001   -1	  0
+/data/gsfma305/data/Nov07/Nov07.r004.dat.000	-1	0
+/data/gsfma305/data/Nov07/Nov07.r004.dat.001	-1	0
+/data/gsfma305/data/Nov07/Nov07.r004.dat.002   -1	  0
+/data/gsfma305/data/Nov07/Nov07.r005.dat.000   -1	  0
+/data/gsfma305/data/Nov07/Nov07.r005.dat.001   -1	  0
+/data/gsfma305/data/Nov13a/Nov13a.r026.dat.008 -1	  0
+/data/gsfma305/data/Nov13a/Nov13a.r027.dat.000 -1	  0
+/data/gsfma305/data/Nov13a/Nov13a.r027.dat.001 -1	  0
+/data/gsfma305/data/Nov14/Nov14.r028.dat.000   -1	  0
+/data/gsfma305/data/Nov14a/Nov14a.r030.dat.000 -1	  0
+/data/gsfma305/data/Nov14a/Nov14a.r030.dat.001 -1	  0
+/data/gsfma305/data/Nov14a/Nov14a.r030.dat.002 -1	  0
+/data/gsfma305/data/Nov14a/Nov14a.r030.dat.003 -1	  0
+/data/gsfma305/data/Nov14a/Nov14a.r030.dat.004 -1	  0
+
+
+
+
+---------------------------------------------------------
+First line is the number of files to sort
+Subsequent lines contain three columns
+Column 1: filename	
+Coulum 2: blocks to sort in this file (-1 for all blocks)
+Column 3: blocks to skip at the start of this file
+---------------------------------------------------------
