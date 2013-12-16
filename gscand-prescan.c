@@ -9,7 +9,7 @@
 #include <sys/mtio.h>
 #include <time.h>
 #include <math.h>
-#include "scandef.h"
+#include "scandef-prescan.h"
 #include "scanfunction.h"
 
 FILE *fpr, *fp, *fps;
@@ -1242,8 +1242,8 @@ int main(int argc, char *argv[]){
 
          p++;
 
-         #include "histogram_options_gsfma305.c"
-         //#include "prescan_option_gsfma305.c"
+         //include "histogram_options_gsfma305.c"
+         #include "prescan_option_gsfma305.c"
 
       }
 /* --------------------------- end of event ------------------------------ */
