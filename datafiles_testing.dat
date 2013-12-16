@@ -1,0 +1,17 @@
+6
+/data/gsfma305/data/Nov09/Nov9.r014.dat.009   -1      0
+/data/gsfma305/data/Nov10/Nov10.r015.dat.003   -1     0
+/data/gsfma305/data/Nov10/Nov10.r015.dat.004   -1     0
+/data/gsfma305/data/Nov10/Nov10.r016.dat.000   -1     0
+/data/gsfma305/data/Nov10/Nov10.r017.dat.000   -1     0
+/data/gsfma305/data/Nov10d/Nov10d.r024.dat.002 -1     0
+
+
+
+---------------------------------------------------------
+First line is the number of files to sort
+Subsequent lines contain three columns
+Column 1: filename
+Coulum 2: blocks to sort in this file (-1 for all blocks)
+Column 3: blocks to skip at the start of this file
+---------------------------------------------------------
